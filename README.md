@@ -1,4 +1,4 @@
-###Key-value storage.
+### Key-value storage
 There are 2 modes: in-memory and persistance (based on PostgresSQL)
 
 For running in persistance mode:
@@ -8,7 +8,5 @@ For running in persistance mode:
 ```
 
 and set connectionString in appsettings.json
-
----
 
 Used .net core 2.0 and postgresSQL
