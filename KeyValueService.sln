@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyValueService", "KeyValueService\KeyValueService.csproj", "{F165FD39-66DB-4362-A3E8-4023E2A9C45B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyValueTestSerivceTest", ".\KeyValueTestSerivceTest\KeyValueTestSerivceTest.csproj", "{C7863D12-54FF-4817-8A64-FF80F18FA4E8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F165FD39-66DB-4362-A3E8-4023E2A9C45B} = {F165FD39-66DB-4362-A3E8-4023E2A9C45B}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{F165FD39-66DB-4362-A3E8-4023E2A9C45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F165FD39-66DB-4362-A3E8-4023E2A9C45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F165FD39-66DB-4362-A3E8-4023E2A9C45B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7863D12-54FF-4817-8A64-FF80F18FA4E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7863D12-54FF-4817-8A64-FF80F18FA4E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7863D12-54FF-4817-8A64-FF80F18FA4E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7863D12-54FF-4817-8A64-FF80F18FA4E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
